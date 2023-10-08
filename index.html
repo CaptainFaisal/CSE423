@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #monitor{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSE423 - Computer Graphics</h1>
+    <p>
+        To draw a line, call the function drawLine on the console, passing the coordinates of the start and end points and the line drawing algorithm as parameters. The algorithm can be DDA or BLA.
+        <br />
+        Sample call: drawLine(0, 10, 25, 17, "DDA");
+        <br />
+        currently, the screen is 32x18 pixels, so the coordinates should be between 0 and 31 for x and 0 and 17 for y.
+    </p>
+    <canvas id="monitor"></canvas>
+    <script src="canvas.js"></script>
+    <script src="graphics.js"></script>
+</body>
+</html>
